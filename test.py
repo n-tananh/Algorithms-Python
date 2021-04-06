@@ -1,11 +1,3 @@
-# nums = [-4, -1, 0, 3, 10]
-nums = [-1]
+a = [4, 3, 2, 7, 8, 2, 3, 1]
 
-left = -1
-for i in range(0, len(nums)):
-    if nums[i] < 0:
-        left += 1
-    else:
-        break
-
-print(left)
+print(set(a))
