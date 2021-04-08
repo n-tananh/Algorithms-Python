@@ -46,18 +46,6 @@
 """
 def findDisappearedNumbers(nums: list[int]) -> list[int]:
 
-    # Không dùng mảng đánh dấu, chỉnh sửa ngay tại mảng ban đầu
-    # res = []
-    # for i in range(len(nums)):
-    #     index = abs(nums[i])
-    #     if nums[index - 1] > 0:
-    #         nums[index - 1] *= -1
-    #
-    # for i in range(len(nums)):
-    #     if nums[i] > 0:
-    #         res.append(i + 1)
-    #
-    # return res
     res = []
     for i in range(len(nums)):
         while nums[i] != (i + 1) and nums[i] != (nums[nums[i] - 1]):
