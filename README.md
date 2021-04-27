@@ -2,4 +2,4 @@
 
 The algorithms and their implementation in Python.
 
-> Tony
+> n_tananh
